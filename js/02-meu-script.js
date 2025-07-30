@@ -1,3 +1,6 @@
+// Habilitando o modo estrito/ modo que barra o uso da palavras reservadas da linguagem
+'use strict'
+
 /* Exercicios*/
 
 // 1) Crie uma variavel chamada "uc" e coloque nela o número da UC que estamos
