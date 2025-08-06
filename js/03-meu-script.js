@@ -28,3 +28,13 @@ console.log("Hoje treinarei na "+ hobbies[1] +" a noite e logo após irei assist
 
 console.log(`Hoje iniciarei um treino na nova ${hobbies[1]} do bairro e assistirei ${hobbies[4]} e irei ao ${hobbies[6]} esta semana`)
 
+
+// Matrizes
+const tecnologias = [ ["HTML", "CSS", "JAVASCRIPT"], ["Figma", "Photoshop"], ["PHP", "Node.js", "SQL", "Express"]]
+
+// console.log(tecnologias)
+
+console.log(tecnologias[0][2]) // JavaScript
+
+console.log(tecnologias[2][3]) // Express
+
