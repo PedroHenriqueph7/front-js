@@ -93,7 +93,41 @@ ao usar ==  comparação é composta é somente do valor,ou sej, não importa o 
 /* Ao Usar === a comparação refere-se ao valor e o tipo de dados, importando tudo*/
 
 let a = 10
-let b = 10
+let b = '10'
 
 let comparacao = a == b //true
 let comparacao1 = a === b // false
+
+/*Operadores (e)&&, (ou)||, e !(não verdadeiro) */
+
+//login com operador &&
+
+let user = true
+let password = true
+
+if (user && password) {
+    console.log('Login efetuado')
+} else {
+    console.log('Não foi possivel realizar o seu login')
+}
+
+// Aulas com operador ||
+
+let feriado = true
+let fimDeSemana = false
+
+if (feriado || fimDeSemana) {
+    console.log('Não tem Aula')
+} else {
+    console.log('Tem aula')
+}
+
+// Promoções backFriday com operador !
+
+let blackFriday = true
+
+if (!blackFriday) {
+    console.log('Black friday não ativada')
+} else {
+    console.log('Black friday ativada')
+}
