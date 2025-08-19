@@ -48,8 +48,8 @@ switch (diaDaSemana) {
 // - Nota 1 (contendo um valor de 0 a 10)
 // - Nota 2 (contendo outro valor de 0 a 10)
 
-let nota1 = 5
-let nota2 = 8
+let nota1 = 9
+let nota2 = 9
  
 // 2. Crie uma variável chamada "Média" que receberá o valor CALCULADO da média das duas notas informadas. 
 // DICA: você deve SOMAR as duas notas e DEPOIS dividir por 2.
@@ -65,3 +65,35 @@ else
     console.log('Reprovado')
 
 
+
+
+
+/*Conforme a média
+- Media acima de 9 -> otimo
+- Media acima de 7 -> bom
+- Media acima de 5 -> ruim
+- Media até 5 -> pessimo
+*/
+
+
+if (media > 9) {
+    console.log('otimo')
+} else if (media > 7) {
+    console.log('bom')
+} else if (media > 5) {
+    console.log('ruim')
+} else {
+    console.log('pessimo')
+}
+
+
+/*Sobre o duplo e triplo sinal de igual
+ao usar ==  comparação é composta é somente do valor,ou sej, não importa o tipo de dados(string, number, etc) */
+
+/* Ao Usar === a comparação refere-se ao valor e o tipo de dados, importando tudo*/
+
+let a = 10
+let b = 10
+
+let comparacao = a == b //true
+let comparacao1 = a === b // false
