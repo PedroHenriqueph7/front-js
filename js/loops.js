@@ -9,7 +9,7 @@ let i = 1
 
 while (i <= 5) {
     console.log("Valor do contador: "+ i)
-    contador++;
+    i++;
 }
 
 
@@ -25,4 +25,10 @@ do {
 } while (contador != 20)
 
 
+console.log("Exemplo for")
 
+let limite = 10
+
+for (let i = 0; i < limite; i++) {
+    console.log(i)
+}
