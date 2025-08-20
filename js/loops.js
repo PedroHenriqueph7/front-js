@@ -2,8 +2,20 @@
 
 //Loops
 
-let contador = 0
 
+console.log("Exemplo While")
+
+let i = 1
+
+while (i <= 5) {
+    console.log("Valor do contador: "+ i)
+    contador++;
+}
+
+
+
+console.log("Exemplo Do While")
+let contador = 0
 
 do {
     contador++
@@ -13,21 +25,4 @@ do {
 } while (contador != 20)
 
 
-// Enquanto o usuário não atender continue chamando
 
-let statusLigação
-
-
-do {
-
-    let status = 'não atendido'
-    let random = Math.random(1,10)
-    
-    if (random == 1) {
-        status = 'atendido'
-        console.log("atendido!")
-    } else {
-        console.log("Chamando...")
-    }
-
-} while (statusLigação != 'atendido')
