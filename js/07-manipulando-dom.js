@@ -59,7 +59,7 @@ const botaoNoturno = document.querySelector("#noturno")
 
 /**DESAFIOS! */
      /* 1) Faça a mudança de cores acontecer gradualmente (use o transition!)
-     
+
      2) Se o modo noturno estiver ativado, ou seja, se a classe modo-noturno
      estiver aplicada à página, faça o texto do botão mudar para "Desativar".
      Caso contrário, faça o texto do botão exibir "Ativar".*/
@@ -76,10 +76,23 @@ botaoNoturno.addEventListener("click", function(){
         botaoNoturno.textContent = "Ativar"
     }
     
+
 })
 
 
+/*Exemplo 02 */
+const janelaModal = document.querySelector("#janelinha");
 
+document.addEventListener("mouseout", function(event){
+    if(event.clientY < 0) {
+        //somente para a tag dialog
+        janelaModal.showModal()
+    }
+})
 
+const botaoFechar = janelaModal.querySelector("button")
+botaoFechar.addEventListener("click", function(){
+    janelaModal.close()
+})
 
 

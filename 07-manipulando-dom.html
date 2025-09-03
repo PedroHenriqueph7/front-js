@@ -12,12 +12,27 @@
       padding: 0.4rem;
       border-radius: 4px;
     }
-    
+
     .modo_noturno{
       background-color: black;
       color: white;
     }
 
+    #janelinha {
+      background-color: antiquewhite;
+      width: 300px;
+      border-radius: 10px;
+      border: none;
+      text-align: center;
+    }
+
+    #janelinha button {
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+
+      background-color: rgb(255, 255, 255);
+    }
   </style>
 </head>
 <body class="">
@@ -33,7 +48,11 @@
     <h2>Exemplo 02: Detectando "saída" do site</h2>
     <p id="mensagem02"></p>
 
-
+    <dialog id="janelinha">
+      <h3>poxa!Ja esta de Saída do nosso site</h3>
+      <p>Confira primeiro nossos Descontos!</p>
+      <button>Fechar</button>
+    </dialog>
     <hr>
 
     <h2>Exemplo 03: Modo Noturno</h2>
